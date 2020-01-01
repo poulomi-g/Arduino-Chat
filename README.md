@@ -15,11 +15,11 @@
 * Wires
 
 ### Wiring Intructions:
-Client Arduino TX3 <--> Server Arduino RX3
-Client Arduino RX3 <--> Server Arduino TX3
-Any Arduino GND <--> Resistor <--> Client Arduino Pin 13
-Any Arduino +5V <--> Resistor <--> Server Arduino Pin 13
-Server Arduino GND <--> Client Arduino GND
+	Client Arduino TX3 <--> Server Arduino RX3
+	Client Arduino RX3 <--> Server Arduino TX3
+	Any Arduino GND <--> Resistor <--> Client Arduino Pin 13
+	Any Arduino +5V <--> Resistor <--> Server Arduino Pin 13
+	Server Arduino GND <--> Client Arduino GND
 
 ### Running Instructions: 
 

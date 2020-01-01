@@ -1,8 +1,8 @@
 # Arduino-Chat
 
+### Description
 
-
-
+A simple chat program between two Arduinos. Two people will type into separate serial monitors. The message typed into the serial monitor will be sent to one Arduino, encrypted, sent to the other Arduino using using the serial port pins, decrypted, and then displayed on the other person’s serial monitor. The encryption protocol we will use is RSA. This program is able to randomly generate its own public and private keys for both parties and utilize it for the RSA encryption technique.
 
 ### Included Files:
 * encrypted_communication_part2.cpp

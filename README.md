@@ -57,14 +57,8 @@ Server Arduino GND <--> Client Arduino GND
 	it also exchanges keys with the other Arduino. 
 
 
-Assumptions: 
-	* The program assumes that the user types at a normal speed, as typing at extremely 
-		fast speeds or keyboard mashing overflows the serial buffer and causes the program
-		to not work properly.
-	* It is possible that the Arduinos are rapidly sending NULL characters right after 
-		setting up, so it is recommended to wait for a few seconds before testing the program
-	* In the event that the serial buffer overflows, the program is coded such that it would clear any
-		garbage bytes making communication still possible without resetting the Arduinos
-	* It could also be possible that one of the Arduinos is ready to chat while the other is not (e.g. one
-		computer does not have serial monitor open yet). In this case, we assume that the Arduinos are 
-		reset while the serial monitors are both open.
+#### Assumptions: 
+* The program assumes that the user types at a normal speed, as typing at extremely fast speeds or keyboard mashing overflows the serial buffer and causes the program to not work properly.
+* It is possible that the Arduinos are rapidly sending NULL characters right after setting up, so it is recommended to wait for a few seconds before testing the program
+* In the event that the serial buffer overflows, the program is coded such that it would clear any garbage bytes making communication still possible without resetting the Arduinos
+* It could also be possible that one of the Arduinos is ready to chat while the other is not (e.g. one computer does not have serial monitor open yet). In this case, we assume that the Arduinos are reset while the serial monitors are both open.
